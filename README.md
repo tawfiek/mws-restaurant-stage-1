@@ -36,3 +36,7 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 ### Use gulp tasks 
  
  You have to use gulp to uglify javascript file if you midify any one of them once before running the application by run " $ gulp scripts " and it will watch any changes to re-uglify  the file without needs  to run any command agian  
+ 
+ 
+ ### Checkout the live demo . 
+ https://tawfiek.github.io/mws-restaurant-stage-1/
