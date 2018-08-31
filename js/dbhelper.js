@@ -227,18 +227,18 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    return (`img/${restaurant.photograph}`);
   }
 
-  
+  // /tawfiek/mws-restaurant-stage-1/blob/master/images/1-larg_1x.jpg?raw=true
   /**
    * Restaurant images  URL.
    */
   static imgSetUrlForRestaurantSmall(restaurant) {
-    return (`/images/${restaurant.id}-small_1x.jpg 1x,/images/${restaurant.id}-small_2x.jpg 2x`);
+    return (`images/${restaurant.id}-small_1x.jpg 1x,/images/${restaurant.id}-small_2x.jpg 2x`);
   }
   static imgSetUrlForRestaurantLarg(restaurant) {
-    return (`/images/${restaurant.id}-larg_1x.jpg 1x,/images/${restaurant.id}-larg_2x.jpg 2x`);
+    return (`images/${restaurant.id}-larg_1x.jpg 1x,/images/${restaurant.id}-larg_2x.jpg 2x`);
   }
 
   /**
